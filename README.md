@@ -1,73 +1,73 @@
-# -Gestion-d-un-Hopital-EMR
-# 🏥 Système de Gestion des Dossiers Médicaux Électroniques (EMR)
+# Welcome to your Lovable project
 
-> Projet académique - Faculté des Sciences - Université Mohammed V de Rabat  
-> Réalisé par : **LAMNAOUAR Abdelkabir**  
-> Encadré par : **Mme Safae CHARDALE**  
-> Année universitaire : **2025 / 2026**
+## Project info
 
----
+**URL**: https://lovable.dev/projects/3647c5d3-c21d-4d9b-9322-9f3c79481d49
 
-## 📌 Description
+## How can I edit this code?
 
-Ce projet est une plateforme web complète permettant la **gestion électronique des dossiers médicaux (EMR)** au sein d’un établissement hospitalier. Il permet à l’administrateur de superviser les patients, les médecins, les consultations, les prescriptions et les examens.
+There are several ways of editing your application.
 
-Le projet repose sur la **stack MERN** (MongoDB, Express, React, Node.js), offrant une architecture moderne, scalable et réactive.
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/3647c5d3-c21d-4d9b-9322-9f3c79481d49) and start prompting.
 
-## 🎯 Objectifs du projet
+Changes made via Lovable will be committed automatically to this repo.
 
-- Stocker les dossiers médicaux sous forme de documents **JSON**
-- Gérer les **consultations, prescriptions, examens et antécédents**
-- Associer chaque patient à un **identifiant unique**
-- Permettre une **recherche dynamique** (symptômes, diagnostics, traitements)
-- Assurer la **confidentialité, traçabilité** et évolutivité des données
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## 🛠️ Technologies utilisées
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-| Côté | Technologies |
-|------|--------------|
-| Backend | Node.js, Express, MongoDB, Mongoose |
-| Frontend | React.js, Axios, React Router |
-| Outils | Postman, MongoDB Compass, VS Code |
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## 🚀 Fonctionnalités principales
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- 🔐 Connexion et dashboard administrateur
-- 🧑‍⚕️ Gestion des patients (CRUD)
-- 📂 Création automatique d’un dossier médical
-- 📝 Gestion des consultations, prescriptions et examens
-- 🔎 Recherche avancée par diagnostic / symptôme
-- ⚙️ Communication REST API entre React et Express
-- 🔄 Mise à jour dynamique des données sans rechargement
-- 🧾 Préparation future : génération PDF, authentification JWT, DICOM
+# Step 3: Install the necessary dependencies.
+npm i
 
----
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## 📂 Structure du projet
-emr-backend/
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── server.js
-│ └── .env
-emr-front/
-│ ├── src/
-│ ├── components/
-│ ├── App.jsx
-│ └── package.json
+**Edit a file directly in GitHub**
 
----
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## ⚙️ Installation locale
+**Use GitHub Codespaces**
 
-### 1. Cloner le projet
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-```bash
-git clone https://github.com/abdelkabirlamnaouar/emr-project.git
-cd emr-project
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/3647c5d3-c21d-4d9b-9322-9f3c79481d49) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
